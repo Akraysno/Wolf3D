@@ -104,13 +104,3 @@ start:
 	@echo "  \033[38;5;202m│\033[0m   libft            : \033[38;5;2mDone\033[0m        \033[38;5;202m│\033[0m"
 	@echo "\033[38;5;202m  ├──────────────────────────────────┤\033[0m"
 	@echo "  \033[38;5;202m│\033[0m   Objects wolf3d   : \033[38;5;3mStart\033[0m       \033[38;5;202m│\033[0m"
-
-runall: re
-	./fractol &
-	./fractol fwf &
-	./fractol Mandelbrot &
-	./fractol Julia &
-	./fractol Mandelbar &
-	./fractol Cross &
-	./fractol Bow &
-	./fractol Burningship &
